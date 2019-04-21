@@ -1,8 +1,8 @@
-$primary-color: rgb(68, 68, 68);
-$secondary-color: #083be2f1;
+$primary-color: rgb(90, 102, 96);
+$secondary-color: rgb(216, 155, 103);
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
-$background-opacity: 0.55;
+$home-image: url(../img/sand_back.jpg);
+$background-opacity: 0.3;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
@@ -32,9 +32,9 @@ $background-opacity: 0.55;
 // Set Text Color
 @function set-text-color($color) {
   @if (lightness($color) > 40) {
-    @return #000;
+    @return #31222D;
   } @else {
-    @return #fff;
+    @return #FCECBD;
   }
 }
 
